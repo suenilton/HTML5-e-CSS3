@@ -1,0 +1,18 @@
+body{
+    background-color: #CCCCCC;
+}
+#banner{
+    width: 100%;
+}
+h1 {
+    background-color: #CCCCCC;
+    color: rgb(87, 208, 54)
+}
+/* o "em" na frente da tag "strong" é para definir que as unicas tags "strong" que terão esse estilo serão as que estão contidas
+na tag "em" */
+em strong{
+    color: red;
+}
+#missao{
+    font-size: 20px
+}

@@ -9,17 +9,30 @@
         <meta charset=UTF-8>
         <!--A teg "title" é usada para definir o título da página na aba do navegador.-->
         <title>Barbearia Alura</title>
+        <!--Forma de estilização CSS que aplica o estilo a todas as tags estilizadas dentro da tag style-->
+        <style>
+            p{
+                text-align: center;
+            }
+        </style>
+        <!--Forma de estilização CSS utilizando um arquivo externo onde "rel" é o relacionamento e "href" é a localização do arquivo.-->
+        <link rel="stylesheet" href="style.css">
     </head>
     
     <!--Toda informação que quero exibir na página eu coloco dentro do body-->
     <body>
+        <!--"src" é source e "alt" é alternativo ou seja, um texto para caso a imagem não apareça por algum motivo.-->
+        <img id="banner" src="materiais do curso\o-que-nao-pode-faltar-na-sua-barbearia-equipamentos.jpg" alt="Erro na imagem">
+
         <!--A tag "h" serve para indicar que determinado texto é um título e vai do h1 até o h6 variando o tamanho-->
-        <h1>Sobre a Barbearia Alura</h1>
+        <h1 style="text-align: center">Sobre a Barbearia Alura</h1> <!--Forma de estilização CSS inline-->
         <!--A tag "p" serve para indicar parágrafo-->
         <!--A tag "strong" serve para tornar um texto em negrito-->
         <p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
         <!--A tag "em" serve para tornar um texto em itálico-->
-        <p><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes".</strong></em></p>
+        <!--Quando eu quero aplicar uma estilização específica apenas para uma tag, eu atribuo a ela um "id" 
+        e na folha de estilização eu me refiro a ela colocando "#valor_id"-->
+        <p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes".</strong></em></p>
 
         <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
     </body>
