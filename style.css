@@ -1,8 +1,10 @@
-body{
-    background-color: #CCCCCC;
-}
 #banner{
     width: 100%;
+    height: 500px;
+}
+.principal{
+    background-color: #CCCCCC;
+    padding: 30px;
 }
 h1 {
     background-color: #CCCCCC;
@@ -14,5 +16,26 @@ em strong{
     color: red;
 }
 #missao{
-    font-size: 20px
+    font-size: 20px;
+}
+/* Se eu estiver me referindo a uma classe eu tenho que começar com ponto*/
+.itens{
+    font-style: italic;
+}
+.beneficios{
+    background-color: aliceblue;
+    padding: 20px;
+}
+ul{ /* Por padrão todo conteúdo bem como block, tomando a largura inteira da página, mas com o inline o elemento só toma o tamanho 
+    do próprio elemento */    
+    display: inline-block;
+    vertical-align: top; /* faz com que os elementos de uma lista sejam alinhados pelo topo*/
+    width: 20%;
+    margin-right: 15%;
+}
+h2{
+    text-align: center;
+}
+#img_beneficios{
+    width: 50%;
 }
