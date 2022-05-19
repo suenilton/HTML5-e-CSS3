@@ -1,0 +1,23 @@
+.inline-block{
+    display: inline-block;
+}
+header{
+    background-color: #BBBBBB;
+}
+nav{
+    position: absolute;
+    right: 260px;
+    top: 80px;
+}
+nav li{
+    display: inline;
+    margin: 10px;
+}
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

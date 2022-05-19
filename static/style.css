@@ -1,3 +1,10 @@
+.titulo_principal{
+    padding-left: 20px;
+}
+h1 {
+    background-color: #CCCCCC;
+    color: rgb(87, 208, 54)
+}
 #banner{
     width: 100%;
     height: 500px;
@@ -5,10 +12,6 @@
 .principal{
     background-color: #CCCCCC;
     padding: 30px;
-}
-h1 {
-    background-color: #CCCCCC;
-    color: rgb(87, 208, 54)
 }
 /* o "em" na frente da tag "strong" é para definir que as unicas tags "strong" que terão esse estilo serão as que estão contidas
 na tag "em" */
@@ -33,7 +36,7 @@ ul{ /* Por padrão todo conteúdo bem como block, tomando a largura inteira da p
     width: 20%;
     margin-right: 15%;
 }
-h2{
+.titulo_centralizado{
     text-align: center;
 }
 #img_beneficios{
