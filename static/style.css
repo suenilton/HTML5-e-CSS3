@@ -85,14 +85,38 @@ main{
 form{
     margin: 40px 0;
 }
-form label{
+form label, form legend{
     display: block;
     margin: 10px 0 2px;
     font-size: 20px;
 }
-form input{
+.input-padrao{
     display: block;
     font-size: 20px;
     padding: 10px 15px;
     width: 50%;
+}
+.contato{
+    width: 20%;
+    margin: 20px 0;
+}
+.checkbox{
+    margin: 20px 0;
+}
+.enviar{
+    width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    transition: 0.5s all;
+    cursor: pointer;
+}
+.enviar:hover{
+    background: rgb(161, 107, 7);
+    color: white;
+    transform: scale(1.05) rotate(5deg);
 }
