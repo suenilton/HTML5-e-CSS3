@@ -1,44 +1,98 @@
-.titulo_principal{
-    padding-left: 20px;
+header{
+    background-color: #BBBBBB;
+    padding: 20px 0;
 }
-h1 {
-    background-color: #CCCCCC;
-    color: rgb(87, 208, 54)
+.caixa{
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
 }
-#banner{
-    width: 100%;
-    height: 500px;
+nav{
+    position: absolute;
+    right: 0;
+    top: 110px;
 }
-.principal{
-    background-color: #CCCCCC;
-    padding: 30px;
+nav li{
+    display: inline;
+    margin: 10px;
 }
-/* o "em" na frente da tag "strong" é para definir que as unicas tags "strong" que terão esse estilo serão as que estão contidas
-na tag "em" */
-em strong{
-    color: red;
+nav a{
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
-#missao{
-    font-size: 20px;
+nav a:hover{
+    color: rgb(255, 255, 255);
 }
-/* Se eu estiver me referindo a uma classe eu tenho que começar com ponto*/
-.itens{
-    font-style: italic;
+.produtos{
+    width: 60%;
+    margin: 0 auto;
+    padding: 50px 0;
 }
-.beneficios{
-    background-color: aliceblue;
-    padding: 20px;
-}
-ul{ /* Por padrão todo conteúdo bem como block, tomando a largura inteira da página, mas com o inline o elemento só toma o tamanho 
-    do próprio elemento */    
+.produtos li{
     display: inline-block;
-    vertical-align: top; /* faz com que os elementos de uma lista sejam alinhados pelo topo*/
-    width: 20%;
-    margin-right: 15%;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+    border: 5px solid black;
+    border-radius: 15px 50px;
 }
-.titulo_centralizado{
+.produtos li:hover{
+    border-color: rgb(63, 174, 41);
+}
+.produtos li:hover h2{
+    font-size:35px
+}
+.produtos li:active{
+    border-color: rgb(36, 100, 24);
+}
+.produtos h2{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.produtos-descricao{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0 20px;
+}
+.produtos-preco{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 10px 0 0;
+}
+footer{
+    background: url("D:\\Suenilton\\Pessoal\\Projetos Python\\Projetos front-end HTML e CSS\\Projeto HTML e CSS\\materiais do curso\\imagens\\bg.jpg");
+    padding: 40px 0;
     text-align: center;
 }
-#img_beneficios{
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin: 20px 0 0;
+}
+main{
+    width: 80%;
+    margin: 0 auto;
+}
+form{
+    margin: 40px 0;
+}
+form label{
+    display: block;
+    margin: 10px 0 2px;
+    font-size: 20px;
+}
+form input{
+    display: block;
+    font-size: 20px;
+    padding: 10px 15px;
     width: 50%;
 }

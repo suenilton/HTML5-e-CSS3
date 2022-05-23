@@ -1,0 +1,44 @@
+.titulo_principal{
+    padding-left: 20px;
+}
+h1 {
+    background-color: #CCCCCC;
+    color: rgb(87, 208, 54)
+}
+#banner{
+    width: 100%;
+    height: 500px;
+}
+.principal{
+    background-color: #CCCCCC;
+    padding: 30px;
+}
+/* o "em" na frente da tag "strong" é para definir que as unicas tags "strong" que terão esse estilo serão as que estão contidas
+na tag "em" */
+em strong{
+    color: red;
+}
+#missao{
+    font-size: 20px;
+}
+/* Se eu estiver me referindo a uma classe eu tenho que começar com ponto*/
+.itens{
+    font-style: italic;
+}
+.beneficios{
+    background-color: aliceblue;
+    padding: 20px;
+}
+ul{ /* Por padrão todo conteúdo bem como block, tomando a largura inteira da página, mas com o inline o elemento só toma o tamanho 
+    do próprio elemento */    
+    display: inline-block;
+    vertical-align: top; /* faz com que os elementos de uma lista sejam alinhados pelo topo*/
+    width: 20%;
+    margin-right: 15%;
+}
+.titulo_centralizado{
+    text-align: center;
+}
+#img_beneficios{
+    width: 50%;
+}
