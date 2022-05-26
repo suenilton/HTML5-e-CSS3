@@ -132,3 +132,32 @@ td, th{
     border: 1px solid #000000;
     padding: 15px 8px;
 }
+/* CSS da página inicial */
+.banner{
+    width: 100%;
+}
+.titulo-principal{
+    text-align: center;
+    /* "2em" significa que independente de qual for a fonte escolhida ou a fonte pedrão, a fonte com essa estilização
+    terá o dobro do tamanho padrão. Se fosse "3em", seria três vezes o tamanho padrão. */
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+.principal p{
+    margin: 0 0 1em;
+}
+.principal strong{
+    font-weight: bold;
+}
+.principal em{
+    font-style: italic;
+}
+.utensilios{
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+.img_beneficios{
+    width: 60%;
+}
