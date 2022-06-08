@@ -139,6 +139,10 @@ td, th{
 .banner{
     width: 100%;
 }
+.principal{
+    background: linear-gradient(#FEFEFE, #888888);
+    padding: 3em 0;
+}
 .titulo-principal{
     text-align: center;
     /* "2em" significa que independente de qual for a fonte escolhida ou a fonte pedrão, a fonte com essa estilização
@@ -146,6 +150,18 @@ td, th{
     font-size: 2em;
     margin: 0 0 1em;
     clear: left;
+}
+.titulo-principal:first-letter{
+    font-weight: bold;
+}
+.titulo-principal:before{
+    content: '[ ';
+}
+.titulo-principal:after{
+    content: ' ]';
+}
+p:first-line{
+    font-weight: bold;
 }
 .principal p{
     margin: 0 0 1em;
@@ -161,11 +177,22 @@ td, th{
     float: left;
     margin: 0 20px 20px 0;
 }
+.beneficios{
+    background: radial-gradient(rgb(225, 214, 194) 50%, blue 60%, green 70%)
+}
 .img_beneficios{
     width: 60%;
 }
+.conteudo-beneficios{
+    width: 1000px;
+    margin: 0 auto;
+}
+.conteudo-beneficios li:before{
+    content: '★ ';
+}
 .mapa{
-    padding: 3em 0;
+    padding: 3em 1em;
+    background: linear-gradient(45deg, orange 50%, blue 60%, green 70%)
 }
 .mapa p{
     margin: 0 0 2em;
@@ -174,4 +201,65 @@ td, th{
 .video{
     width: 1268px;
     margin: 3em auto;
+}
+.itens{
+    display: inline-block;
+    width: 38%;
+    vertical-align: top;
+}
+.itens li{
+    line-height: 1.5em;
+}
+.itens li:first-child{
+    font-weight: bold;
+}
+.itens li:nth-child(3){
+    color: orange;
+}
+.itens li:nth-child(2n){
+    color: rgb(3, 216, 3);
+}
+/* apenas as tags filhas da tag main receberam esse comportamento */
+main > p{
+    background-color: aqua;
+}
+/* a próxima tag p depois da tag img recebe esse comportamento */
+img + p{
+    background-color: blueviolet;
+}
+/* todas as tags p depois da tag h3 receberam esse comportamento */
+h3 ~ p{
+    background-color: yellowgreen;
+}
+#segundo-p-mapa:first-letter{
+    font-size: 30px;
+    color: brown;
+}
+.mapa p:not(#segundo-p-map){
+    background-color: burlywood;
+}
+.img-barbearia-2{
+    padding: 20px;
+    box-shadow: inset 0 0 10px red;
+}
+.img-barbearia-2 img{
+    width: calc(100% - 800px);
+    opacity: 0.7;
+    transition: 250ms;
+    margin: 20px 0;
+}
+.img-barbearia-2 img:hover {
+    opacity: 1;
+    box-shadow: 10px 10px 5px 5px black;
+}
+.img-barbearia-2 h4{
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 30px;
+}
+.img-barbearia-2 h5{
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 30px;
+    text-shadow: 2px 2px rgba(0, 0, 0, 1);
 }
